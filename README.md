@@ -26,11 +26,10 @@ Track your income, expenses, and see your current balance in real time.
 ---
 
 ## Installation
-
 1. Clone the repository:  
-   ```bash
-   git clone <repo_url>
-   cd <repo_folder>
+   
+git clone <repo_url>
+cd <repo_folder>
 2. Create and activate a virtual environment (optional but recommended):
    
 python -m venv venv
