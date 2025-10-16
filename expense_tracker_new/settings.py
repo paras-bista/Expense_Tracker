@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-cv=-+$noa6m#r9)lfi_$%au7!#avo=lbf99rnfeqb3k@@4pvj@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['expense-tracker-new-wow3.onrender.com', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'expense-tracker-new-hd76.onrender.com']
 
 
 # Application definition
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
-ROOT_URLCONF = 'expensetacker.urls'
+ROOT_URLCONF = 'expense_tracker_new.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'expensetacker.wsgi.application'
+WSGI_APPLICATION = 'expense_tracker_new.wsgi.application'
 
 
 # Database
