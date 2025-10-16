@@ -1,4 +1,11 @@
 ﻿aiohappyeyeballs==2.6.1
+Django
+gunicorn
+whitenoise
+dj-database-url
+psycopg2-binary
+python-dotenv
+
 aiohttp==3.12.15
 aiosignal==1.4.0
 annotated-types==0.7.0
@@ -105,4 +112,5 @@ virtualenv==20.28.1
 whitenoise==6.9.0
 yarl==1.20.1
 zstandard==0.24.0
+
 
